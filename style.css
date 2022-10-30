@@ -1,0 +1,151 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header{
+    width: 80%;
+    height: 207px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    width: 45%;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    width: 80%;
+    height: 613px;
+    margin: 0 auto;
+    background-image: url(./images/სლაიდერი3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading_h3{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    padding-top: 60px;
+}
+
+article{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 441px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+h1{
+    font-size: 1.875rem;
+}
+
+.p_more{
+    display: flex;
+    justify-content: right;
+    padding-right: 15px;
+}
+
+.button_click{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: white;
+    border: none;
+    font-size: 1.875rem;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    background-color: #2e2e2e;
+    height: 207px;
+    margin-top: 30px;
+}
+
+.footer_content{
+    width: 80%;
+    height: 207px;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_platforms{
+    width: 9%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+@media (max-width:480px){
+    nav{
+        display: none;
+    }
+    section{
+        height: 200px;
+    }
+    .heading_h3{
+        text-align: center;
+        font-size: 1.5rem ;
+    }
+    .box1{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        display: none;
+    }
+    .footer_content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .heading_h3{
+        font-size: 1.5rem;
+    }
+    button{
+        font-size:  1.5rem;
+    }
+}
+
+
